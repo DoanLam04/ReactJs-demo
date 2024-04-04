@@ -1,0 +1,37 @@
+{
+  "name": "doanxuanlam-backend",
+  "private": true,
+  "version": "0.1.0",
+  "description": "A Strapi application",
+  "scripts": {
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "build": "strapi build",
+    "strapi": "strapi"
+  },
+  "devDependencies": {
+    "@faker-js/faker": "^7.6.0"
+  },
+  "dependencies": {
+    "@strapi/plugin-documentation": "^4.20.4",
+    "@strapi/plugin-i18n": "^4.20.4",
+    "@strapi/plugin-users-permissions": "^4.20.4",
+    "@strapi/strapi": "^4.20.4",
+    "mysql": "2.18.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^5.3.4",
+    "styled-components": "^5.3.11"
+  },
+  "author": {
+    "name": "A Strapi developer"
+  },
+  "strapi": {
+    "uuid": "12d2c40a-2855-4f65-ab75-4fb2f8f8fd75"
+  },
+  "engines": {
+    "node": ">=14.19.1 <=18.x.x",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
+}
